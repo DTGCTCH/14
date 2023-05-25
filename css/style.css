@@ -1,0 +1,55 @@
+@import url('https://webfontworld.github.io/DdangFonts/TangsBudaeJjigae.css');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+*{margin: 0px; padding: 0px;}
+img{display: block;}
+
+h2{font-weight: 500; font-size: 3.5vw; text-align: center; margin-top: 1vw; margin-bottom: 3vw;}
+h3{font-weight: 500; font-size: 2vw; text-align: center; margin-top: 1vw; margin-bottom: 1vw;}
+h4{font-weight: 500; font-size: 2.5vw; text-align: center; margin-bottom: 3vw;}
+p{font-weight: 500; font-size: 1.3vw; line-height: 140%;}
+
+.ttext{font-family: 'TangsBudaeJjigae' !important;}
+.ctext{font-family: 'pretendard' !important;}
+.thighlight{display: inline; padding-left: 1.5vw; padding-right: 1.5vw; padding-top: 0.6vw;}
+.chighlight{display: inline; padding-top:0.3vw; padding-right: 1vw; padding-bottom:0.3vw; padding-left: 1vw;}
+.center{text-align: center;}
+.left{text-align: left;}
+
+.relative{position: relative;}
+.wrapper{width: 70vw; margin: auto;}
+.flex{display: flex; flex-wrap: wrap;}
+
+.yellow{color: #fdf2d4;}
+.bg-yellow{background-color: #fdf2d4;}
+.navy{color: #25212f;}
+.bg-navy{background-color: #25212f;}
+.orange{color: #ffa364;}
+.bg-orange{background-color: #ffa364;}
+.red{color: #b95249;}
+.bg-red{background-color: #b95249;}
+
+
+/*타이틀*/
+.timg{width:100%; opacity: 60%;}
+.ttextimg{width: 50%; position: absolute; top: 19vw; left: 25%;}
+#myImage {animation: zoom 5s infinite; transition-timing-function: ease-in-out;}
+    @keyframes zoom {
+        0% {transform: scale(0.9);}
+        50% {transform: scale(1.1);}
+        100% {transform: scale(0.9);}
+    }
+
+/*심각성*/
+section{padding-top: 5vw; padding-bottom: 5vw;}
+.danger{margin-bottom: 5vw;}
+.dangerimg {width: 100%; object-fit: cover; margin:auto;}
+.text-box {background-image: url('../img/oceantrash.png'); background-size: cover; color: #fdf2d4; height: 50vw; overflow-y: scroll;}
+    .text-box::-webkit-scrollbar {display: none;}
+    .text-box h4{font-weight: 500; font-size: 4vw; text-align: center; margin-top: 20vw; margin-bottom: 0.6vw;}
+    .text-box p{font-size: 2vw; text-align: center; margin-bottom: 22vw;}
+
+
+/*프레셔스*/
+.precious{margin-bottom: 8vw;}
+.precious .what .flex{padding-top: 3vw; justify-content: center; gap: 4vw;}
+.precious .what p{padding-top: 2vw;}
